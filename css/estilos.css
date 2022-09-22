@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+/* RESET DE CSS PARA EL BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS PARA EL BODY */
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../imagenes/fondo\ gris.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    /* background-image: linear-gradient(to bottom, #f2994c, #e59a59, #d79b65, #ca9c71, #bc9c7e, #b79a7d, #b3977d, #ae957c, #b2906e, #b58a61, #b98453, #bc7e46); */
+}
+
+/* APLICACION DE ESTILOS PARA EL HTML --CON 62.5%, LOS PIXELES PASAN DE VALER 16PX, A VALER 10PX-- */
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* CABECERA DE LA PAGINA --(HEADER DE LA PAGINA)--*/
+.header {
+    /* background-color: rgb(233, 228, 228); */
+    height: 15vh;
+    position: relative;
+}
+
+div .img {
+    /* background-color: brown; */
+    display: inline-block;
+    position: relative;
+}
+
+.img img {
+    border-radius: 50px;
+}
+
+.img{
+    position: relative;
+    margin-left: 100px;
+    bottom: 5px;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+.nav {
+    /* background-color: blue; */
+    display: inline-block;
+    position: absolute;
+    width: 550px;
+    right: 0;
+}
+
+.nav {
+    margin-right: 30px;
+    bottom: 25px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 2rem;
+}
+
+.nav__a {
+    text-decoration: none;
+    /* background-color: rgb(101, 65, 75); */
+    color: rgb(222, 170, 87);
+    border-radius: 5px;
+}
+
+/* .nav__a:hover {
+    color: rgb(222, 170, 87);
+} */
+
+/* SECCION PRINCIPAL DE LA PAGINA */
+.main {
+/* background-color: brown; */
+position: relative;
+height: 75vh;
+}
+
+/* CORRESPONDE A LA ETIQUETA SECTION NUMERO 1 */
+.s__div1 { 
+/* background-color: blue; */
+display: inline-block;
+margin-left: 35%;
+position: relative;
+}
+
+.div1 {
+    /* background-color: rgba(59, 214, 28, 0.862); */
+    width: 450px;
+    margin: 0 auto;
+}
+
+.div1__tp {
+    /* background-color: greenyellow; */
+    font-size: 3em;
+    text-align: center;
+    background-color: rgb(101, 65, 75);
+    border-radius: 50px;
+    color: rgb(222, 170, 87);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.div1__p {
+    display: inline-block;
+    position: relative;
+    background-color: rgb(158, 41, 60);
+}
+
+.div1__p__h2 {
+    /* background-color: rgb(252, 252, 252); */
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color:  rgb(222, 170, 87);
+    font-size: 1.4em;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+
+}
+
+/* CORRESPONDE A LA SECCION NUMERO 2 */
+.s__div2 {
+    /* background-color: rgb(225, 146, 29); */
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.div2__st {
+    /* background-color: orangered; */
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    height: 250px;
+    font-size: 1.8em;
+    padding-top: 70px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 1.7;
+}
+
+.div2 {
+    /* background-color: rgb(219, 208, 194); */
+    position: absolute;
+    right: 0;
+    width: 200px;
+    bottom: 0;
+    height: 250px;
+    width: 50%;
+    
+}
+
+.div2 img {
+    position: relative;
+    margin-left: 300px;
+    border-radius: 200px;
+}
+
+
+/* SECCION FOOTER */
+.footer {
+    /* background-color: rgb(216, 211, 211); */
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+/* MEDIOS DE COMUNICACION A TRAVES DE LAS REDES SOCIALES */
+/* ICONO DE FACEBOOK */
+.footer1 {
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    margin-top: 25PX;
+}
+
+/* ICONO DE INSTAGRAM */
+.footer2 {
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 140px;
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+
+/* ICONO DE WHATSAPP */
+.footer3 {
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 230px;
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+}
+/* TEXTO DEL PIE DE PAGINA "SEGUINOS EN NUESTRAS REDES" */
+.footer h2 {
+    /* background-color: blue; */
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 2em;
+    color: rgb(222, 170, 87);
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-weight: 100;
+}
+
+/* .footer h2:hover {
+color: rgb(222, 170, 87);
+} */
+/* AQUI TERMINA EL ARCHIVO INDEX.HTML */
+
+/* -----------------------
+--------------------------*/
+
+/* AQUI COMIENZAN LOS ESTILOS DEL ARCHIVO NOSOTROS.HTML*/
+
+.section__n {
+/* background-color:aqua; */
+height: 75vh;
+}
+
+.article__n {
+    position: relative;
+/* background-color: blue; */
+height: 55px;
+}
+
+.article__p {
+    position: absolute;
+    /* background-color: brown; */
+    display: inline-block;
+    width: 50%;
+    margin: 7% 25%;
+    height: 250px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 1.8em;
+}
+
+.h1__nosotros {
+    /* background-color: blueviolet; */
+    text-align: center;
+    color: #ffffff;
+    height: 55px;
+    padding-top: 20px;
+    font-size: 2em;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+/* AQUI SE LE APLICARAN LOS ESTILOS AL FORMULARIO */
+.titulo {
+    text-align: center;
+    font-size: 3em;
+    color: rgb(222, 170, 87);
+    /* text-decoration: underline; */
+    /* background-color: #b9ed50; */
+    text-transform: uppercase;
+    background-color: rgb(101, 65, 75);
+    /* display: inline-block; */
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.form {
+    position: relative;
+    left: 36%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+}
+
+.form__f {
+    /* background-color: #e8ebeb; */
+    height: 430px;
+    width: 420px;
+    position: relative;
+    margin-top: 30px;
+    border-radius: 15px;
+    /* background-image: url(../imagenes/nonoa\ hogar.jpeg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form__l {
+font-size: 2.7em;
+text-align: center;
+display: inline-block;
+width: 100%;
+margin-top: 10px;
+color: #ffffff;
+}  
+
+.form__i {
+    display: inline-block;
+    left: 25px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #c3cbcb;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 25px;
+    width: 346px;
+    font-size: 15px;
+    height: 35px;
+}
+
+.form__i::placeholder {
+    color: black;
+    text-transform: capitalize;
+    padding-left: 15px;
+    font-weight: 700;
+}
+
+.form__ta {
+    margin-top: 10px;
+    margin-left: 41px;
+    border-radius: 10px;
+    background-color: #c3cbcb;
+    color: #000;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.form__be {
+    display: inline-block;
+    margin-left: 123px;
+    margin-top: 25px;
+    color: rgb(222, 170, 87);
+    border-radius: 10px;
+    width: 195px;
+    padding: 2px;
+    background-color: rgb(101, 65, 75);
+    font-weight: 700;
+}
+
+/* AQUI SE APLICARAN LOS ESTILOS A LA SECCION DE GALERIA */
+
+.section__g {
+/* background-color: aqua; */
+height: 75vh;
+}
+
+.f__caja {
+    display: inline-block;
+    /* background-color: black; */
+    width: 200px;
+    margin: 3% 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form__be:hover {
+color: #b9ed50;
+} */
+
+
+
+@media (max-width:768px){
+    .nav__a {
+        color: aqua;
+    }
+
+  }
+/* CONFIGURACIONES DE OTRO SITIO (NO SE DE USAR EN ESTE PROYECTO) */
+
+/* SECCION HEADER Y NAV DEL SITIO */
+/* .header {
+    background-image: linear-gradient(to bottom, #3254ed, #00bfd5, #00cbd3, #00d6cd, #00e1c3, #00e6ba, #00ebaf, #00f0a2, #00f298, #00f38c, #00f580, #0ef672);
+    height: 15vh;
+    width: 100%;
+    position: relative;
+} */
+
+/* COLOR AZUL */
+
+/* 
+
+background: rgb(43,56,190);
+background: radial-gradient(circle, rgba(43,56,190,1) 54%, rgba(0,87,163,1) 100%);
+*/
